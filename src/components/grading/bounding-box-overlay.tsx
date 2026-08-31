@@ -25,7 +25,7 @@ export function BoundingBoxOverlay({
               mixBlendMode: "multiply",
             }}
           >
-            <span className="bg-vision text-caption absolute -top-5 left-0 rounded-sm px-1 text-white">
+            <span className="bg-vision text-foreground text-caption absolute -top-5 left-0 rounded-sm px-1">
               {e.label} · {e.conf.toFixed(1)}%
             </span>
           </div>
